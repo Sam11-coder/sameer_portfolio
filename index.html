@@ -1,14 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ahmad Sameer Ahmadi Portfoio</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ahmad Sameer Ahmadi Portfolio</title>
+
+  <!-- Link to external CSS -->
+  <link rel="stylesheet" href="styles.css" />
 </head>
+
 <body>
-    <h1>
-        Hi 
-    </h1>
-    
+  <header>
+    <h1>Hi, I’m Ahmad Sameer Ahmadi </h1>
+    <p>BCIT CIT student | IT Support / Junior IT Intern | Linux • Bash • Python</p>
+
+    <!-- Button that jumps to the Projects section -->
+    <a class="btn" href="#projects">View My Project</a>
+  </header>
+
+  <main>
+    <section id="projects">
+      <h2 class="section-title">Projects</h2>
+
+      <div class="project-card">
+        <h3>E-Commerce Web App (Flask) In Progress</h3>
+        <p>
+          Full-stack e-commerce website using HTML/CSS/Jinja for the frontend and
+          Flask + Python + SQLAlchemy for the backend.
+        </p>
+        <p><strong>Tech:</strong> HTML, CSS, Jinja2, Flask, Python, SQLAlchemy</p>
+        <p><strong>Next:</strong> Login system + secure payments (Stripe Checkout)</p>
+
+        <div class="project-links">
+          <!-- Replace this link with your real GitHub repo -->
+          <a class="btn" href="https://github.com/Sam11-coder/pyhton_store.git" target="_blank" rel="noopener">
+            GitHub Repo
+          </a>
+
+          <!-- Optional: live demo -->
+          <!-- <a class="btn" href="https://your-demo-link.com" target="_blank" rel="noopener">Live Demo</a> -->
+        </div>
+      </div>
+    </section>
+  </main>
 </body>
 </html>
